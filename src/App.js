@@ -7,8 +7,10 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      Hello
-      <Footer />
+      <div className="container">
+        Hello
+        <Footer />
+      </div>
     </div>
   );
 }
