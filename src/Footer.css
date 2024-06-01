@@ -1,0 +1,17 @@
+footer {
+  font-size: 12px;
+  margin: 10px 0;
+  padding: 20px;
+  color: var(--primary-font);
+  border-top: 1px solid #ddeedf;
+  text-align: center;
+}
+a {
+  color: rgba(232, 99, 10, 0.8);
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 200ms ease;
+}
+a:hover {
+  color: #e8630a;
+}
