@@ -1,7 +1,14 @@
+import React from "react";
+
+import Footer from "./Footer";
+
 import "./App.css";
 
-function App() {
-  return <div className="App">Hello</div>;
+export default function App() {
+  return (
+    <div className="App">
+      Hello
+      <Footer />
+    </div>
+  );
 }
-
-export default App;
