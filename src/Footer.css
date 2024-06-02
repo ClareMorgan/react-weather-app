@@ -1,8 +1,12 @@
+:root {
+  --primary-color: #77846c;
+}
+
 footer {
   font-size: 12px;
   margin: 10px 0;
   padding: 20px;
-  color: var(--primary-font);
+  color: var(--primary-color);
   border-top: 1px solid #ddeedf;
   text-align: center;
 }
