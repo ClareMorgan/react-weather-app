@@ -5,11 +5,11 @@
 
 .Weather {
   font-family: arial, sans-serif;
-  padding: 16px;
+  padding: 24px;
   color: var(--primary-color);
 }
 .Weather form {
-  padding: 20px;
+  padding-bottom: 24px;
   border-bottom: 1px solid #ddeedf;
 }
 .Weather .search-form-input {
@@ -42,7 +42,7 @@
 .Weather h1 {
   font-size: 32px;
   font-weight: 100;
-  margin: 20px 0 0 0;
+
   line-height: 29px;
 }
 
