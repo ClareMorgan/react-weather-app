@@ -4,13 +4,5 @@
   background: white;
   border: 1px solid #ddeedf;
   border-radius: 10px;
-  box-shadow: 5px 5px 10px rgba(92, 113, 94, 0.4);
-}
-
-.App footer {
-  font-size: 12px;
-  margin: 10px 0;
-  padding: 20px;
-  color: var(--primary-font);
-  border-top: 1px solid #ddeedf;
+  box-shadow: 5px 5px 10px rgba(92, 113, 94, 0.3);
 }
