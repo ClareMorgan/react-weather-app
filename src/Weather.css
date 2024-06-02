@@ -1,11 +1,12 @@
 :root {
-  --primary-font: #77846c;
+  --primary-color: #77846c;
+  --secondary-color: #5c715e;
 }
 
 .Weather {
   font-family: arial, sans-serif;
   padding: 16px;
-  color: var(--primary-font);
+  color: var(--primary-color);
 }
 .Weather form {
   padding: 20px;
@@ -29,14 +30,12 @@
   line-height: 19px;
   list-style: none;
 }
-.Weather img {
-  height: 64px;
-  width: 64px;
-  margin-right: 10px;
+.Weather canvas {
+  margin: 10px auto;
 }
 .Weather .temperature {
   font-weight: bold;
-  color: var(--primary-font);
+  color: var(--secondary-color);
   font-size: 64px;
   line-height: 64px;
   margin-left: 5px;
@@ -45,7 +44,7 @@
 }
 
 .Weather .unit {
-  color: var(--primary-font);
+  color: var(--secondary-color);
   font-size: 16px;
   font-weight: 400;
   position: relative;
