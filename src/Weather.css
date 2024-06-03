@@ -2,7 +2,10 @@
   --primary-color: #77846c;
   --secondary-color: #5c715e;
 }
-
+.color-ring-wrapper {
+  display: block;
+  margin: 30px auto;
+}
 .Weather {
   font-family: arial, sans-serif;
   padding: 24px;
